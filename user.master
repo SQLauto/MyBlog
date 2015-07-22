@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="user.master.cs" Inherits="user" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>welcome.</title>
+    <style type="text/css">
+        .banner
+        {
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .navigate
+        {
+            margin-left: auto;
+            margin-right: auto;
+            width: 1000px;
+            text-align: left;
+        }
+        .main
+        {
+            margin-left: auto;
+            margin-right: auto;
+            width: 1000px;
+        }
+        .copyright
+        {
+            float: none;
+            margin-top: 10px;
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-family: "新宋体";
+            font-size: 13px;
+        }
+        .aimg
+        {
+            border-width: 0px;
+            padding-left: 0px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="banner">
+        <img src="images/banner.jpg" />
+    </div>
+    <table width="1000" border="0" align="center">
+        <tr>
+            <td width="1000">
+                <a href="vxer.aspx">
+                    <img src="images/homepage.gif" width="134" height="30" border="0" /></a><a href="diarylist.aspx"><img
+                        src="images/diary.gif" width="76" height="30" border="0" /></a><a href="photoview.aspx"><img
+                            src="images/photo.gif" width="79" height="30" border="0" /></a><a href="msg.aspx"><img src="images/message.gif"
+                                width="123" height="30" border="0" /></a><a href="download.aspx"><img src="images/download.gif"
+                                    width="132" height="30" border="0" /></a><a href="contact.aspx"><img src="images/contact.gif"
+                                        width="157" height="30" border="0" /></a><a href="vxer_come.aspx"><img src="images/menu_blank.jpg"
+                                            width="295" height="30" border="0" /></a>
+            </td>
+        </tr>
+    </table>
+    <div class="main">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="copyright">
+        <hr />
+        版权所有(C)lazycat E-Mail: vxer@qq.com<br />
+        未经作者许可不得以任何方式任何用途转载本站内容
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+F:\Project\Website\VXer\dal\bin\Release\dal.dll
+F:\Project\Website\VXer\dal\bin\Release\dal.pdb
+F:\Project\Website\VXer\dal\obj\Release\ResolveAssemblyReference.cache
+F:\Project\Website\VXer\dal\obj\Release\dal.dll
+F:\Project\Website\VXer\dal\obj\Release\dal.pdb

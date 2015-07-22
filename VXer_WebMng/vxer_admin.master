@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="vxer_admin.master.cs" Inherits="VXer_WebMng_vxer_admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>welcome VXer</title>
+    <style type="text/css">
+        .banner
+        {
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .main
+        {
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .left
+        {
+            padding-top: 20px;
+            background-color: Gray;
+            float: left;
+            text-align: center;
+            border-color: Red;
+            border-width: 2px;
+            width: 200px;
+            height: 450px;
+            font-family: "幼圆";
+            font-size: medium;
+        }
+        .right
+        {
+            margin-left: 10px;
+            padding-top: 20px;
+            border-color: Red;
+            border-width: 2px;
+            color: White;
+            background-color: InfoText;
+            width: 790px;
+            font-size: 12px;
+            height: 450px;
+        }
+        .copyright
+        {
+            float: none;
+            margin-top: 8px;
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-family: "新宋体";
+            font-size: 13px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="banner">
+        <img src="../images/banner.jpg" />
+    </div>
+    <div class="main">
+        <div class="left">
+            欢迎进入后台管理系统<br />
+            <br />
+            <a href="atcmng.aspx">文章管理</a><br />
+            <br />
+            <br />
+            <a href="imgMng.aspx">图片管理</a><br />
+            <br />
+            <br />
+            <a href="filemng.aspx">文件管理</a><br />
+            <br />
+            <br />
+            <%--  <a href="rmkmng.aspx">评论管理</a><br />
+            <br />
+            <br />--%>
+            <a href="msgmng.aspx">留言管理</a><br />
+            <br />
+            <br />
+            <a href="dbmng.aspx">网站维护</a><br />
+            <br />
+            <br />
+            <img src="../images/mail.jpg" />
+        </div>
+        <div class="right">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <div class="copyright">
+        <hr />
+        版权所有(C)VXer E-Mail: vxer@qq.com<br />
+        未经作者许可不得以任何方式任何用途转载本站内容
+    </div>
+    </form>
+</body>
+</html>

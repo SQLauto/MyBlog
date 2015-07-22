@@ -1,0 +1,9 @@
+F:\Project\Website\VXer\bll\bin\Release\bll.dll
+F:\Project\Website\VXer\bll\bin\Release\bll.pdb
+F:\Project\Website\VXer\bll\bin\Release\dal.dll
+F:\Project\Website\VXer\bll\bin\Release\model.dll
+F:\Project\Website\VXer\bll\bin\Release\model.pdb
+F:\Project\Website\VXer\bll\bin\Release\dal.pdb
+F:\Project\Website\VXer\bll\obj\Release\ResolveAssemblyReference.cache
+F:\Project\Website\VXer\bll\obj\Release\bll.dll
+F:\Project\Website\VXer\bll\obj\Release\bll.pdb
